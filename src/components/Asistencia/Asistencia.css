@@ -1,0 +1,10 @@
+.formAsistencia {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+.formAsistencia a {
+    font-size: 30px;
+    color: white;
+}
