@@ -52,22 +52,22 @@ const Banner = () => {
                 <div className="relojPrincipal">
                     <div>
                         <p>{timerDays}</p>
-                        <p><small>Days</small></p>
+                        <p><small>Días</small></p>
                     </div>
                     <span>:</span>
                     <div>
                         <p>{timerHours}</p>
-                        <p><small>Hours</small></p>
+                        <p><small>Horas</small></p>
                     </div>
                     <span>:</span>
                     <div>
                         <p>{timerMinutes}</p>
-                        <p><small>Minutes</small></p>
+                        <p><small>Minutos</small></p>
                     </div>
                     <span>:</span>
                     <div>
                         <p>{timerSeconds}</p>
-                        <p><small>Seconds</small></p>
+                        <p><small>Segundos</small></p>
                     </div>
                 </div>
             </Clock>
