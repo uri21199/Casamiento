@@ -7,3 +7,40 @@
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
 }
+
+.collapsable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapsable .toggle {
+    background-color: #eee;
+    border: unset;
+    cursor: pointer;
+    font: unset;
+    padding: 0.3em;
+    border-radius: 5px;
+    color: #000;
+    margin: .5rem;
+}
+
+.collapsable .infobanco-parent {
+    border: 1px solid #000;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-bottom: .5em;
+    height: 0px;
+    width: 400px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.collapsable .infobanco-parent p {
+    margin: 5px 0;
+}
+
+.collapsable .infobanco-parent.show {
+    height: 0;
+}
