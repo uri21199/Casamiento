@@ -30,7 +30,7 @@ list-style: none;
 
 @media screen and (max-width: 768px) {
     background-color: #fff;
-    position: absolute;
+    position: fixed;
     top: 70px;
     left: ${({ open }) => (open ? "0" : "-100%")};
     width: 100%;
