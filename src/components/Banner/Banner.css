@@ -20,3 +20,17 @@
 .relojPrincipal div {
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .relojPrincipal {
+        width: 100vw;
+    }
+
+    .relojPrincipal p {
+        font-size: .7em;
+    }
+
+    .relojPrincipal span {
+        font-size: .7em;
+    }
+}
